@@ -22,7 +22,7 @@ include("data_db.php");
 		if (!$db_selected)
 		{
 // Exit, if can not select the database
-		die ('Can\'t use foo : ' . mysql_error());
+		die ('Can\'t use foo : ' . mysql_error())
 		}
 function latestpost() {
 // Connect to the database
