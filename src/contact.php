@@ -8,14 +8,14 @@ include("common.php");
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="metatags" -->
 <title>Contact Us</title>
-@@%%%^^^^^^^^^^^^<meta name="Keywords" content="" />
-<meta name="Description" content="" />
-<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+&&&*****<meta name="Keywords" content="" />
+****<meta name="Description" content="" />
+^^^^^^<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
 <?php
 headersection();
 topnavigator();
 ?>
-<div id="contentWrapper">
+< %%%%   %%%%div id="contentWrapper">
     <div id="leftColumn1"><!-- InstanceBeginEditable name="leftsidebar" -->
       <div id="leftColumnContent">
 <?php			
@@ -73,4 +73,4 @@ or by submitting your message using the form below:</p><br />
 <?php
 footernavigator();
 ?>
-</html>
+	</html>
