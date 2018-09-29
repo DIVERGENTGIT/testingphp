@@ -7,7 +7,7 @@ include("common.php");
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- InstanceBeginEditable name="metatags" -->
-<title>Contact Us</title>i
+<title>Contact Us</title>
 <meta name="Keywords" content="" />
 <meta name="Description" content="" />
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
@@ -35,11 +35,12 @@ or by submitting your message using the form below:</p><br />
 				alert( "Please make sure the form is complete and valid." );
 			} else if ( ( document.emailForm.email.value.search(";") != -1 ) || ( document.emailForm.email.value.search(",") != -1 ) || ( document.emailForm.email.value.search(" ") != -1 ) ) {
 				alert( "You cannot enter more than one e-mail address." );
+				i
 			} else {
 				document.emailForm.action = "sendmessage.php";
 				document.emailForm.submit();
 			}
-		}
+		
 		//-->
 		
 		</script>
